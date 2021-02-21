@@ -12,7 +12,7 @@ namespace appCoreOnLinux.Controllers
     {
         public IActionResult Index()
         {
-            System.Diagnostics.Trace.TraceInformation("Este es el home controllers");
+            System.Diagnostics.Trace.TraceInformation("Este es el home contdrollers");
             return View();
         }
 
